@@ -16,7 +16,7 @@ This works only with [Docker swarm mode](https://docs.docker.com/engine/swarm/) 
 
 Each node in the swarm will show all tasks running on it. When a service goes down it'll be removed. When a node goes down it won't, instead the circle at the top will turn red to indicate it went down. Tasks will be removed.
 Occasionally the Remote API will return incomplete data, for instance the node can be missing a name. The next time info for that node is pulled, the name will update.
-
+--
 To run:
 
 ```
